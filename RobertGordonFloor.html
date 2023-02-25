@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>RGU Map Attack</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel = "StyleSheet" href="universalStylesheet.css">
+    <link rel = "StyleSheet" href="RobertGordonMap.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src = ".." alt = "logo">
+        <a href="#buildingOne">Robert Gordon</a>
+        <a href="#buildingTwo">Building Two</a>
+        <a href="#buildingThree">Building Three</a>
+    </div>
+
+    <div id = "mainContent">
+        <div>
+            <div id = "floorPlanContainer">
+                <div id = "floorPlan">
+                    <div id = "map"></div>
+                </div>
+            </div>
+
+            <div id = "buttonContainer"> 
+                <div>
+                    <button type = "button" class = "layerButton" id = "upButton">Up</button>
+                </div>
+
+                <div>
+                    <button type = "button" class = "layerButton" id = "downButton">Down</button>
+                </div>
+
+                <div id = "floorIndicator">
+                    <p id = "FloorIndicatorText">This text will change :)</p>
+                </div>
+                
+                <div id = "FloorSelector">
+                    <p>Put in drop down menu here :)</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<div id = "footerDiv">
+    <footer>
+        <small>© <script>document.write(new Date().getFullYear())</script> Kool Kats. All Rights Reserved.</small>
+
+        
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    
+        
+    <script src ="scripts/mapManager.js"></script>
+</footer>
+</div>
+
+</body>
+</html>

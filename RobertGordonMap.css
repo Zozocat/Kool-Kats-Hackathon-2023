@@ -1,0 +1,38 @@
+#mainContent{
+    background-color: aqua;
+
+    padding:10%;
+
+    height: 500px;
+}
+
+
+.layerButton{
+    width: 50px;
+    height: 100px;
+
+    background-color: aqua;
+}
+
+#floorPlanContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#floorPlan{
+    width: 250px;
+    height: 250px;
+}
+
+#buttonContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    display: inline;
+}
+
+#map {
+    height: 400px;
+  }

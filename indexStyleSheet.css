@@ -1,0 +1,20 @@
+#mainContent{
+    background-color: aqua;
+
+    padding:10%;
+}
+
+#flexContainer{
+    display: flex;
+}
+
+.BuildingImages{
+    width: 350px;
+    height: 250px;
+}
+
+.containers{
+    margin: 2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

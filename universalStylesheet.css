@@ -10,6 +10,7 @@ body{
   top: 0;
   width: 100%;
 }
+
 .navbar a {
   float: left;
   display: block;
@@ -19,12 +20,17 @@ body{
   text-decoration: none;
   font-size: 18px;
 }
+
+.navbar img{
+    float: left;
+    display block;
+    padding: 15px 18px;
+}
+
 .navbar a:hover {
   color: #1c87c9;
 }
-.container {
-  padding: 18px;
-  margin-top: 35px;
-  height: 2000px;
-}
 
+#footerDiv{
+    background-color: aquamarine;
+}

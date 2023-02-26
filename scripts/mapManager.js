@@ -18,18 +18,25 @@ var count = 3;
 
 function upButtonClick(){
     count++;
-    if(count > 4){
-        console.log("Highest building reached");
+    if(count > 5){
         count--;
         console.log(count);
+        alert("You can't go any higher");
+    } else if(count == 5){
+        alert("Highest level reached");        
+        console.log("Change layer")
+        console.log(count)
+        var imageUrl = "file:///C:/Users/Jamie/OneDrive/Documents/RGUHACKATHON/Kool-Kats-Hackathon-2023/images/loor" + count + ".jpg";
+        console.log("Update Map")
+        L.imageOverlay(imageUrl, imageBounds).addTo(map);
     } else {
         console.log("Change layer")
         console.log(count)
         var imageUrl = "file:///C:/Users/Jamie/OneDrive/Documents/RGUHACKATHON/Kool-Kats-Hackathon-2023/images/loor" + count + ".jpg";
         console.log("Update Map")
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
+        raiseTheLevel();
 
-        lowerTheLevel();
     }
 }
 
@@ -45,25 +52,17 @@ function downButtonClick(){
         map.invalidateSize();
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-        raiseTheLevel();
+        lowerTheLevel();
     }
 }
 
 
 function raiseTheLevel() {  
-    document.getElementById('FloorIndicatorText').innerHTML = 'You are now on floor three';  
+    document.getElementById('FloorIndicatorText').innerHTML = 'You have gone up a floor';  
 }  
 function lowerTheLevel() {  
-    document.getElementById('FloorIndicatorText').innerHTML = 'You are now on floor four';  
+    document.getElementById('FloorIndicatorText').innerHTML = 'You have gone down a floor';  
 }  
-
-function enterCoords(){
-    console.log("Recieving coords");
-    var lng = prompt("Enter the longitude",  40.754653787554105);
-    var lat = prompt("Enter the latitude", -74.20291229937008);
- 
-    console.log(lng, lat);
-}
 
 map.on('click', function(e){
     var coord = e.latlng;

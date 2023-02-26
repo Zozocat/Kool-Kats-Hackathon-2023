@@ -1,31 +1,79 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', Trebuchet, sans-serif;
-    background-color: #edade8;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', Trebuchet, sans-serif;
+  background-color: #edade8;
 }
-
 #navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: block;
-    background-color: #712177;
-    height: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: #712177;
+  height: 100px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #712177;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #712177;
-  }
-  
-  li {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar img{
+  height: 100px;
+  display: inline-block;
+}
+#map { 
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80vw;
+  height: 72.5vh;
+}
+
+#green{
+  color: #9fbf00;
+}
+
+#orange{
+  color: #ff8000;
+}
+
+#yellow{
+  color: #ccba02;
+}
+
+#pink{
+  color: #E31C79;
+}
+
+#blue{
+  color: #0072ce;
+}
+
+footer{
+  position: fixed;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #712177;
+  color: white;
+  text-align: center;
+  height: 150px;
+  height: 10vh;
+}
+
+#catlogo{
+  height: 100px;
+  width: 100px;
+}
+

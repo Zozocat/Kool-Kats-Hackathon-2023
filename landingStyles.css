@@ -1,0 +1,11 @@
+
+  
+ #container{
+  background-image: url("images/landingPage.jpg");
+}
+
+#map-attack{
+  position: absolute;
+  display: block;
+}
+  

@@ -1,38 +1,88 @@
-#mainContent{
-    background-color: aqua;
+#map{
+    width: 150vh;
+    height: 50vh;
 
-    padding:10%;
+    position: absolute;
 
-    height: 500px;
-}
+    display: block;
 
-
-.layerButton{
-    width: 50px;
-    height: 100px;
-
-    background-color: aqua;
-}
-
-#floorPlanContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-#floorPlan{
-    width: 250px;
-    height: 250px;
+    margin-top: 200px;
+    margin-left: 50px;
 }
 
 #buttonContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    position: absolute;
+
+    width: 150vh;
+    height: 50vh;
+
+    float: left;
+
+    margin-top:75px;
+    margin-left: 50px;
+
+    display: block;
+}   
+
+.layerButton{
+    margin: 10px;
+
+    width: 10vh;
+}
+
+#floorIndicators{
+    position: absolute;
+
+    width: 150vh;
+    height: 50vh;
+
+    margin-top: 75px;
+    margin-left: 300px;
 
     display: inline;
 }
 
-#map {
-    height: 400px;
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
   }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}

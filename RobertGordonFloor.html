@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <link rel = "StyleSheet" href="universalStylesheet.css">
     <link rel = "StyleSheet" href="RobertGordonMap.css">
+    <script src ="scripts/layerManagement.js"></script>
 </head>
 
 <body>
@@ -21,25 +22,23 @@
         <div>
             <div id = "floorPlanContainer">
                 <div id = "floorPlan">
-                    <div id = "map"></div>
+                    <div id = "map" style = "display: block;"></div>
                 </div>
             </div>
 
             <div id = "buttonContainer"> 
                 <div>
-                    <button type = "button" class = "layerButton" id = "upButton">Up</button>
+                    <button type = "button" class = "layerButton" id = "upButton" onclick="upButtonClick()">Up</button>
                 </div>
 
                 <div>
-                    <button type = "button" class = "layerButton" id = "downButton">Down</button>
+                    <button type = "button" class = "layerButton" id = "downButton" onclick="downButtonClick()">Down</button>
                 </div>
+            </div>
 
+            <div id = "floorIndicators">
                 <div id = "floorIndicator">
-                    <p id = "FloorIndicatorText">This text will change :)</p>
-                </div>
-                
-                <div id = "FloorSelector">
-                    <p>Put in drop down menu here :)</p>
+                    <p id = "FloorIndicatorText">You are now on floor three</p>
                 </div>
             </div>
         </div>

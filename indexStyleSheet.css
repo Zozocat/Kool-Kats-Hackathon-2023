@@ -1,5 +1,5 @@
 #mainContent{
-    background-color: aqua;
+    background-color: #EDADE8;
 
     padding:10%;
 }
@@ -11,6 +11,8 @@
 .BuildingImages{
     width: 350px;
     height: 250px;
+    border-radius: 5%;
+    
 }
 
 .containers{

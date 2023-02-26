@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', Trebuchet, sans-serif;
 }
 
 #mainContent{
@@ -9,6 +10,33 @@ body{
 }
 
 #map{
-    width: 500vw;
-    height: 500vh;
+    width: 100vw;
+    height: 100vh;
+    display: inline;
 }
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    background-color: #712177;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #712177;
+  }
+  
+  li {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

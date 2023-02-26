@@ -45,3 +45,23 @@ ul {
     width: 80vw;
     height: 82.5vh;
 }
+
+#green{
+    color: #9fbf00;
+  }
+
+  #orange{
+    color: #ff8000;
+  }
+
+  #yellow{
+    color: #ccba02;
+  }
+
+  #pink{
+    color: #E31C79;
+  }
+
+  #blue{
+    color: #0072ce;
+  }

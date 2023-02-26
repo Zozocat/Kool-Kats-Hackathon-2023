@@ -43,7 +43,7 @@ ul {
     margin-left: 10%;
 
     width: 80vw;
-    height: 82.5vh;
+    height: 72.5vh;
 }
 
 #green{
@@ -72,13 +72,14 @@ ul {
 
 footer{
     position: fixed;
+    display: block;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #712177;
     color: white;
     text-align: center;
-    height: 150px;
+    height: 10vh;
 }
 
 #catlogo{

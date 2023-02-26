@@ -9,9 +9,9 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
     display: block;
     background-color: #712177;
-    height: 100px;
 }
 
 ul {
@@ -20,6 +20,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #712177;
+    text-align: center;
   }
   
   li {
@@ -29,19 +30,3 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-
-  #navbar img{
-    height: 100px;
-
-    display: inline-block;
-  }
-
-#map { 
-    margin-top: 2%;
-
-    margin-right: 10%;
-    margin-left: 10%;
-
-    width: 80vw;
-    height: 82.5vh;
-}

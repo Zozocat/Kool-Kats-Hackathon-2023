@@ -1,11 +1,19 @@
-
+body{
+  margin: 0;
+}
   
- #container{
+#container{
   background-image: url("images/landingPage.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  
 }
 
 #map-attack{
   position: absolute;
-  display: block;
-}
+  top: 8px;
+  left: 16px;
+  color: #9FBF00;
+} 
   

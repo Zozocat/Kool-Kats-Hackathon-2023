@@ -5,13 +5,14 @@ body{
 
 html, body {
     height: 100%;
-    background-color: rgb(244, 212, 255);
+    font-family: "Trebuchet MS", Trebuchet, serif;
+    background-color: (#712177);
 }
 
 .navbar {
   position: absolute;
   overflow: hidden;
-  background-color: (purple);
+  background-color: (#712177);
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,7 +38,7 @@ html, body {
 }
 
 .navbar a:hover {
-  color: #c300ff;
+  color: #721177;
 }
 
 footer{

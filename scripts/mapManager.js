@@ -6,7 +6,7 @@
     });
     
     //Need to replace this with a proper URL
-    var imageUrl = "../Kool-Kats-Hackathon-2023/images/loor3.jpg",
+    var imageUrl = "../Kool-Kats-Hackathon-2023/images/loor3.jpg";
     imageBounds = [
         [40.712216, -74.22655],
         [40.773941, -74.12544]

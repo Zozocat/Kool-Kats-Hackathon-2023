@@ -50,18 +50,38 @@ ul {
     color: #9fbf00;
   }
 
-  #orange{
+#orange{
     color: #ff8000;
   }
 
-  #yellow{
+#yellow{
     color: #ccba02;
   }
 
-  #pink{
+#pink{
     color: #E31C79;
   }
 
-  #blue{
+#blue{
     color: #0072ce;
   }
+
+#purple{
+    color: #712177;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #712177;
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+
+#catlogo{
+    height: 100px;
+    width: 100px;
+}

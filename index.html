@@ -1,62 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>RGU Map Attack</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel = "StyleSheet" href="universalStylesheet.css">
-  <link rel = "StyleSheet" href="indexStyleSheet.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Leaflet Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <style type="text/css">
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
 
-<body>
-    <div class="navbar">
-        <img src = "images/CoolCatsIcon.png" alt = "logo">
-        <a href="#buildingOne">Sir Ian Wood Building</a>
-        <a href="#buildingTwo">The Ishbel Gordon Building</a>
-        <a href="#buildingThree">Aberdeen Business School</a>
-    </div>
-
-    <div id = "mainContent">
-        <main>
-            <div id = "flexContainer">
-                <div id = "containerOne" class = "containers">
-                    <img src = "images/RobertGordonBuilding.jpg" alt = "Sir Ian wood Building" class = "BuildingImages">
-                    <h1><a href="RobertGordonFloor.html">Sir Ian Wood Building</a></h1>
-                    <p>School of Pharmacy and Life Sciences Staff</p>
-                    <p>School of Computing</p>
-                    <p>School of Engineering</p>
-                </div>
-
-                <div id = "containerTwo"  class = "containers">
-                    <img src = "images/Ishbel-Gordon-Building.jpg" alt = "Ishbel Gordon Building" class = "BuildingImages">
-                    <h1>The Ishbel Gordon Building</h1>
-                    <p>School of Nursing, Midwifery and Paramedic Practice</p>
-                    <p>School of Applied Social Studies</p>
-                    <p>School of Health Sciences</p>
-                </div>
-                
-                <div id = "containerThree" class = "containers">
-                    <img src = "images/AberdeenBusinessSchool.jpg" alt = "Aberdeen Business School" class = "BuildingImages">
-                    <h1>Aberdeen Business School</h1>
-                    <p>Accounting and Finance</p>
-                    <p>Strategic Risk Management</p>
-                    <p>Human Resource Management</p>
-                    <p>Procurement and Supply Chain Management</p>
-                    <p>Sustainability and Energy Transitions</p>
-                    <p>Project Management</p>
-                    <p>Energy Management</p>
-                    <p>Financial Management</p>
-                </div>
-            </div>
-        </main>
-     </div>
-
-<div id = "footerDiv">
-    <footer>
-        <small>© <script>document.write(new Date().getFullYear())</script> Kool Kats. All Rights Reserved.</small>
-    </footer>
-</div>
-
-</body>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script src = "scripts/mapManager.js">
+    </script>
+  </body>
 </html>

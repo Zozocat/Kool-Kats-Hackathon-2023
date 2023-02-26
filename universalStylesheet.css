@@ -5,13 +5,13 @@ body{
 
 html, body {
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(244, 212, 255);
 }
 
 .navbar {
   position: absolute;
   overflow: hidden;
-  background-color: #666666;
+  background-color: (purple);
   position: fixed;
   top: 0;
   width: 100%;
@@ -29,12 +29,15 @@ html, body {
 
 .navbar img{
     float: left;
-    display block;
-    padding: 15px 18px;
+    display: block;
+    padding: 15px ;
+
+    height: 10vh;
+    width: 10vh;
 }
 
 .navbar a:hover {
-  color: #1c87c9;
+  color: #c300ff;
 }
 
 footer{

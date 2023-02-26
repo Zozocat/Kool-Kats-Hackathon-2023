@@ -56,3 +56,29 @@ function raiseTheLevel() {
 function lowerTheLevel() {  
     document.getElementById('FloorIndicatorText').innerHTML = 'You are now on floor four';  
 }  
+
+function enterCoords(){
+    console.log("Recieving coords");
+    var lng = prompt("Enter the longitude",  40.754653787554105);
+    var lat = prompt("Enter the latitude", -74.20291229937008);
+ 
+    console.log(lng, lat);
+}
+
+map.on('click', function(e){
+    var coord = e.latlng;
+    var lat = coord.lat;
+    var lng = coord.lng;
+    console.log("You clicked the map at latitude: " + lat + " and longitude: " + lng);
+
+    // var myIcon = L.icon({
+    //     iconUrl: 'images/CoolCatsIcon.png',
+    //     iconSize: [32, 60],
+    //     iconAnchor: [22, 94],
+    //     popupAnchor: [-3, -76],
+    // });
+
+    // console.log("Pinned")
+    // L.marker([lng, lat], {icon:myIcon}).addTo(map);
+    var marker = L.marker([lat, lng]).addTo(map);
+});

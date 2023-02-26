@@ -15,14 +15,6 @@ body{
     display: inline;
 }
 
-#navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-    background-color: #712177;
-}
 
 ul {
     list-style-type: none;
@@ -30,6 +22,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #712177;
+    text-align: center;
   }
   
   li {
@@ -39,4 +32,24 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  #green{
+    color: #9fbf00;
+  }
+
+  #orange{
+    color: #ff8000;
+  }
+
+  #yellow{
+    color: #ccba02;
+  }
+
+  #pink{
+    color: #E31C79;
+  }
+
+  #blue{
+    color: #0072ce;
   }
